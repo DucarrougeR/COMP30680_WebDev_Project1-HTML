@@ -1,0 +1,207 @@
+<style>
+body {
+    background-color: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 0 100px;
+}
+html {
+	background: no-repeat center center fixed; 
+	background-size: cover;
+ }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #66b2ff;
+    text-shadow: 2px 2px black;
+}
+li {
+    float: left;
+    list-style-type: none
+}
+li a {
+    display: inline-block;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 18pt;
+    text-align: center;
+    padding: 14px 16px;
+    border: 20px;
+    text-decoration: none;
+    list-style-type: none
+}
+li a:hover {
+    background-color: navy;
+}
+.active {
+    background-color: white;
+    color: navy;
+    text-shadow: none;
+}
+div.transbox {
+    float: center;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px ;
+    border-radius: 30px; 
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=7); 
+    text-align: justify;
+}
+div.transbox:hover {
+    background-color: #ffffff;
+    opacity: 0.95;
+    }
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+div.right {
+    position: absolute; 
+    top: 70px;
+    right: 40px;
+    height:320px;
+    max-height: 35%;
+    min-height: 200px;
+    width: 40%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 5px solid navy;
+    opacity: 0.85;
+    filter: alpha(opacity=7); 
+    text-align: justify;
+}
+div.right:hover {
+    background-color: #ffffe6;
+    opacity: 0.95;
+  }
+div.left {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    height:320px;
+    max-height: 35%;
+    min-height: 200px;
+    width: 40%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 5px solid navy;
+    opacity: 0.85;
+    filter: alpha(opacity=7); 
+    text-align: justify;
+}
+div.left:hover {
+    background-color: #cceeff;
+    opacity: 0.95;
+  }
+div.right2 {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    height:320px;
+    max-height: 35%;
+    min-height: 200px;
+    width: 40%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 5px solid navy;
+    opacity: 0.85;
+    filter: alpha(opacity=7); 
+    text-align: justify;
+}
+div.right2:hover {
+    background-color: #ccffcc;
+    opacity: 0.95;
+  }
+div.left2 {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    height:320px;
+    max-height: 35%;
+    min-height: 200px;
+    width: 40%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 5px solid navy;
+    opacity: 0.85;
+    filter: alpha(opacity=7); 
+    text-align: justify;
+    text-justify: inter-word;
+}
+div.left2:hover {
+    background-color: #ffcccc;
+    opacity: 0.95;
+  }
+div.formbox {
+    position: relative;
+    top: 800px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid navy;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    opacity: 0.85;
+    filter: alpha(opacity=7); 
+}
+div.formbox:hover {
+    background-color: #ffffff;
+    opacity: 0.95;
+}
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: #444;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color: #444;
+}
+a:hover {
+	color: #02b8dd;
+}
+strong {
+	font-weight: bold;
+}
+small {
+	font-size: 13px;
+	color: #777;
+	font-style: italic;
+}
+img {
+  width: 60px;
+  height: 60px;
+}
+.footer { 
+    position: static;
+    bottom: 0;
+    margin: auto;
+}
+.footer img{
+    width: 60px;
+ 	height: 60px;
+    margin:0px;
+    position: static;
+    bottom: 0;
+}
+
+
+</style>
